@@ -1,13 +1,13 @@
 package app.training.dia.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
 @Table(name = "tab_job")
-@Setter
-@Getter
+@Data
 public class JobModel {
 
     @Id //primary key
